@@ -14,7 +14,7 @@ public class DriverHolder {
     public DriverHolder(WebDriver driver){
         this.driver = driver;
     }
-    public DriverHolder goToHomepage() {
+    public DriverHolder goToHomePage() {
     driver.get("https://ukrparts.com.ua/category/car/17752/");
     return new DriverHolder(driver);
     }
